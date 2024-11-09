@@ -14,4 +14,7 @@ spring.jms.listener.auto-startup=true
 spring.jms.pub-sub-domain=true
 azure.servicebus.connection-string=Endpoint=sb://reducestock.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=9b74FGBhA0tqYhjHPFJae/unVbzMlhfB2+ASbE8dM8s=
 azure.servicebus.queue-name=stock-queue
+spring.task.execution.shutdown.await-termination=true
+spring.task.execution.shutdown.await-termination-period=30s
+
 
